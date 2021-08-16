@@ -17,7 +17,7 @@ namespace GraphTheory
 
 	public:
 		Queue(int i_Size);			 // constructor - input: size, output: Queue in the size given
-		~Queue() { delete arr; }		 // distructor
+		~Queue() { delete arr; }	 // distructor
 
 
 		T Dequeue();				 // no input, output: oldest element in the queue
